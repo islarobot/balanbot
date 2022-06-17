@@ -1,0 +1,54 @@
+﻿生成启动时间为 2014/10/30 16:33:41。
+     1>项目“E:\balace car\vs2008\PIDADJ\PIDADJ\PIDADJ.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\PIDADJ.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\PIDADJ.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       GenerateTargetFrameworkMonikerAttribute:
+       正在跳过目标“GenerateTargetFrameworkMonikerAttribute”，因为所有输出文件相对于输入文件而言都是最新的。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\PIDADJ.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\PIDADJ.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /analyze- /errorReport:prompt PIDADJ.cpp PIDADJDlg.cpp SerialPort.cpp /clr:nostdlib 
+         PIDADJ.cpp
+         PIDADJDlg.cpp
+     1>PIDADJDlg.cpp(277): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>PIDADJDlg.cpp(382): warning C4805: “==”: 在操作中将类型“int”与类型“bool”混合不安全
+     1>PIDADJDlg.cpp(379): warning C4101: “data”: 未引用的局部变量
+     1>PIDADJDlg.cpp(449): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+     1>PIDADJDlg.cpp(477): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+     1>PIDADJDlg.cpp(506): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+     1>PIDADJDlg.cpp(533): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+     1>PIDADJDlg.cpp(669): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+         SerialPort.cpp
+     1>SerialPort.cpp(136): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>SerialPort.cpp(137): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>SerialPort.cpp(422): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>SerialPort.cpp(661): warning C4018: “>”: 有符号/无符号不匹配
+         正在生成代码...
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHa /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\Administrator\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\PIDADJ.res" PIDADJ.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\balace car\vs2008\PIDADJ\Release\PIDADJ.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_ml249d.lib opencv_nonfree249d.lib opencv_objdetect249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_videostab249d.lib /MANIFEST /ManifestFile:"Release\PIDADJ.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\balace car\vs2008\PIDADJ\Release\PIDADJ.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\PIDADJ.res
+         Release\PIDADJ.obj
+         Release\PIDADJDlg.obj
+         Release\SerialPort.obj
+         Release\stdafx.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+         PIDADJ.vcxproj -> E:\balace car\vs2008\PIDADJ\Release\PIDADJ.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\balace car\vs2008\PIDADJ\Release\PIDADJ.exe;#1" /manifest Release\PIDADJ.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\PIDADJ.unsuccessfulbuild”。
+         正在对“Release\PIDADJ.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\balace car\vs2008\PIDADJ\PIDADJ\PIDADJ.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.55
