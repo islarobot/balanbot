@@ -5,9 +5,9 @@ char c;
 char d;
 void setup() {
   Serial.begin(9600);
-  Serial.println("Goodnight moon!");
+  //Serial.println("Goodnight moon!");
   mySerial.begin(9600);
-  mySerial.println("Hello, world?");
+  //mySerial.println("Hello, world?");
 }
 void loop() {
   delay(10);
@@ -20,7 +20,7 @@ void loop() {
   if (mySerial.available()) {
     d=mySerial.read();
     delay(10);
-    Serial.write(d);
+    Serial.println(d, HEX);
 
   }
 }
